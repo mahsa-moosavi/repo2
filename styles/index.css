@@ -1,0 +1,21 @@
+
+
+/* for search box */
+.rounded-c{
+    border-radius: 100px;
+}
+
+/* for nav items hover */
+
+.hover-nav:hover{
+    border-bottom: black solid 1px;
+}
+.w-33{
+max-width: 33.33%;
+}
+.gap-6{
+    gap: 3.8rem;
+}
+.h-c{
+    max-height: 56%;
+}
