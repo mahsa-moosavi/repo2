@@ -19,3 +19,10 @@ max-width: 33.33%;
 .h-c{
     max-height: 56%;
 }
+.appointment{
+    background: linear-gradient(hsla(212, 99%, 40%, 0.3), rgba(1, 65, 201, 0.6)), url(https://hbr.org/resources/images/article_assets/2020/07/AAug20_07_KlaweRzeczy_Consulting2.jpg) center center no-repeat;
+
+}
+.bg-c{
+    background-color: #fffb0041;
+}
