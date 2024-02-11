@@ -26,3 +26,45 @@ max-width: 33.33%;
 .bg-c{
     background-color: #fffb0041;
 }
+.team{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+.team:hover .team-text{
+    opacity: 1;
+    bottom: 0;
+}
+.team:hover .img-c{
+    transform: scale(1.1);
+}
+.img-c{
+    transition: 0.5s;
+}
+.team-text{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -50px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.testimonial-left{
+    position: relative;
+    
+}
+.testimonial-left :nth-child(1){
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.testimonial-left :nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.testimonial-left :nth-child(3){
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
