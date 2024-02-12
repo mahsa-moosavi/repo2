@@ -68,3 +68,22 @@ max-width: 33.33%;
     bottom: 10%;
     right: 10%;
 }
+.testimonial-right{
+    position: relative;
+}
+.testimonial-right :nth-child(1){
+    position: absolute;
+    top: 10%;
+    right: 50%;
+}
+.testimonial-right :nth-child(2){
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+.testimonial-right :nth-child(3){
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
