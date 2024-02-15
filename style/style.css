@@ -46,3 +46,10 @@ max-width: 33.33%;
 h2{
     font-size: 30px;
 }
+@media (min-width: 320px) and (max-width: 768px){
+    .page-header{
+        background-size:contain;
+    }
+
+}
+    
