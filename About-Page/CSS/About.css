@@ -89,3 +89,57 @@ div.div-four {
 /* *****************
     End About
     ******************** */
+    /* *****************
+  Start Facts
+  ******************** */
+.facts-col-one {
+  background: linear-gradient(rgb(27, 25, 25), rgb(0, 0, 0));
+}
+.div-left,
+.div-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 2rem !important;
+}
+
+.facts-btn {
+  color: white;
+  transition: all 0.5s 0.2s ease;
+}
+.facts-btn:hover {
+  transform: scale(1.1, 1.1);
+  outline-style: solid;
+  outline-color: rgba(255, 255, 255, 0.234);
+  outline-width: 7px;
+}
+.facts-col-two {
+  background: linear-gradient(
+    rgba(220, 220, 220, 0.9),
+    rgba(220, 220, 220, 0.9)
+  );
+}
+h1.display-4 {
+  font-weight: 750;
+}
+
+@media (min-width: 1320px) {
+  .div-left {
+    padding: 6rem 1rem 6rem 11rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .facts-one {
+    max-width: 100% !important;
+  }
+  .facts-col-one {
+    padding-left: calc(((100%-960px) / 2)+ 0.75rem);
+  }
+  .facts-col-two {
+    padding-right: calc(((100%-960px) / 2)+ 0.75rem);
+  }
+}
+
+/* *****************
+  End Facts
+  ******************** */
