@@ -15,3 +15,32 @@ Start Header
   /* ******************
   End Header
   ****************** */
+  /* ******************
+Start Poster
+****************** */
+
+.poster {
+    background: url(https://res.cloudinary.com/dmubfrefi/image/private/s--ylrYRHuM--/c_crop,h_628,w_1200,x_0,y_0/f_auto/q_auto/v1/dee-about-cms-prod-medias/02cf501c-658d-47f7-b1e9-326455c044c5/og-image.png?_a=BAAAROBs)
+      center center no-repeat;
+    background-size: cover;
+  }
+  @media (min-width: 300px) {
+    .py-5 {
+      padding: 5rem 0 5rem 0 !important;
+    }
+  }
+  @media (min-width: 600px) {
+    .py-5 {
+      padding: 6rem 0 6rem 0 !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .py-5 {
+      padding: 8rem 0 8rem 0 !important;
+    }
+  }
+  
+  /* ******************
+  End Poster
+  ****************** */
