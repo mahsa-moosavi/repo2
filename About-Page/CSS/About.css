@@ -1,0 +1,17 @@
+/* ******************
+Start Header
+****************** */
+
+/* for search box */
+.rounded-c {
+    border-radius: 100px;
+  }
+  
+  /* for nav items hover */
+  
+  .hover-nav:hover {
+    border-bottom: black solid 1px;
+  }
+  /* ******************
+  End Header
+  ****************** */
