@@ -1,0 +1,117 @@
+/* ******************
+Start Header
+****************** */
+
+/* for search box */
+.rounded-c {
+  border-radius: 100px;
+}
+
+/* for nav items hover */
+
+.hover-nav:hover {
+  border-bottom: black solid 1px;
+}
+/* ******************
+    End Header
+    ****************** */
+/* ******************
+Start Poster
+****************** */
+/* background */
+
+.poster {
+  background: url(https://res.cloudinary.com/dmubfrefi/image/private/s--UGDmhg6M--/c_scale,w_2048/f_auto/q_auto/v1/dee-about-cms-prod-medias/71fbb222-326e-4bc3-8e4a-f0fbad0fc1fb/nike-inc-swoosh-jordan-converse-logos.jpg?_a=BAAAROBsz)
+    center center no-repeat;
+  background-size: cover;
+}
+section.poster-two {
+  margin-left: 4rem;
+}
+
+@media (max-width: 1100px) {
+  section.poster-two {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .py-5 {
+    padding: 2rem 0 2rem 0 !important;
+  }
+  section.poster-two {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 780px) {
+  .py-5 {
+    padding: 1rem 0 1rem 0 !important;
+  }
+  section.poster-two {
+    margin-left: 1rem;
+  }
+}
+
+/* breadcrumb */
+section section h1.contact {
+  font-weight: 500;
+}
+nav ol li a {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  section section h1.contact {
+    font-size: 2rem;
+  }
+  nav ol li {
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 700px) {
+  section section h1.contact {
+    font-size: 1.5rem;
+  }
+  nav ol li {
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+}
+
+/* ******************
+    End Poster
+    ****************** */
+/* ******************
+    Start Contact
+    ****************** */
+/* form */
+h1.bold {
+  font-weight: 700;
+}
+a.Download {
+  text-decoration: none;
+}
+.btn-send {
+  transition: all 0.5s 0.2s ease-in;
+}
+.btn-send:hover {
+  transform: scale(1.05, 1.1);
+  box-shadow: 3px 3px 0.4em #4b556346, -3px 0 0.4em #4b556350;
+}
+/* map */
+div.map {
+  min-height: 450px;
+}
+
+/* ******************
+    End Contact
+    ****************** */
+/* *****************
+  Start Footer
+  ******************** */
+.link-c {
+  text-decoration: none;
+}
+/* *****************
+    End Footer
+    ******************** */
