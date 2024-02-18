@@ -85,8 +85,8 @@ nav ol li a {
     Start Contact
     ****************** */
 /* form */
-h1.bold{
-    font-weight: 700;
+h1.bold {
+  font-weight: 700;
 }
 a.Download {
   text-decoration: none;
@@ -106,3 +106,12 @@ div.map {
 /* ******************
     End Contact
     ****************** */
+/* *****************
+  Start Footer
+  ******************** */
+.link-c {
+  text-decoration: none;
+}
+/* *****************
+    End Footer
+    ******************** */
