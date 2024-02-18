@@ -67,11 +67,6 @@ Start Header
   bottom: 10%;
   left: 10%;
 }
-@media (max-width: 992px) {
-  .hidden {
-    visibility: hidden;
-  }
-}
 
 /* ******************
       End Testimonial
