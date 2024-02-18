@@ -81,3 +81,28 @@ nav ol li a {
 /* ******************
     End Poster
     ****************** */
+/* ******************
+    Start Contact
+    ****************** */
+/* form */
+h1.bold{
+    font-weight: 700;
+}
+a.Download {
+  text-decoration: none;
+}
+.btn-send {
+  transition: all 0.5s 0.2s ease-in;
+}
+.btn-send:hover {
+  transform: scale(1.05, 1.1);
+  box-shadow: 3px 3px 0.4em #4b556346, -3px 0 0.4em #4b556350;
+}
+/* map */
+div.map {
+  min-height: 450px;
+}
+
+/* ******************
+    End Contact
+    ****************** */
