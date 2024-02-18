@@ -1,0 +1,58 @@
+.page-header {
+    background: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/233753ad-79a8-46e8-bf5a-0d0947e1c771/nike-kids-shoes-clothing-and-accessories-nike-com.jpg) 
+    center center no-repeat;
+    size: 100;
+    background-position: center;
+}
+.display-4{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+/* for search box */
+.rounded-c {
+    border-radius: 100px;
+  }
+  
+  /* for nav items hover */
+  
+  .hover-nav:hover {
+    border-bottom: black solid 1px;
+  }
+
+/* 
+  
+/* for footer */
+.link-c {
+  text-decoration: none;
+}
+.team-item img {
+  transition: 0.5s;
+}
+
+.team-item:hover img {
+  transform: scale(1.1);
+}
+.team-item:hover .team-text {
+  bottom: 0;
+  opacity: 1;
+}
+.team-item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+
+.team-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -50px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.team-item:hover .team-text {
+  bottom: 0;
+  opacity: 1;
+}
+
