@@ -1,0 +1,83 @@
+/* ******************
+Start Header
+****************** */
+
+/* for search box */
+.rounded-c {
+  border-radius: 100px;
+}
+
+/* for nav items hover */
+
+.hover-nav:hover {
+  border-bottom: black solid 1px;
+}
+/* ******************
+      End Header
+      ****************** */
+/* ******************
+      Start Testimonial
+      ****************** */
+.style {
+  max-width: 500px;
+}
+.one {
+  width: 100px;
+}
+.two {
+  width: 80px;
+}
+.three {
+  width: 65px;
+}
+
+.testimonial-left {
+  position: relative;
+}
+.testimonial-left :nth-child(1) {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+.testimonial-left :nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.testimonial-left :nth-child(3) {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.testimonial-right {
+  position: relative;
+}
+.testimonial-right :nth-child(1) {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+}
+.testimonial-right :nth-child(2) {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+.testimonial-right :nth-child(3) {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+/* ******************
+      End Testimonial
+      ****************** */
+      /* *****************
+  Start Footer
+  ******************** */
+.link-c {
+  text-decoration: none;
+}
+/* *****************
+    End Footer
+    ******************** */
+

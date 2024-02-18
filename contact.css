@@ -1,0 +1,23 @@
+.page-header {
+    background: url(https://thenonprofittimes.com/wp-content/uploads/2021/10/contact-us-the-nonprofit-times-1.jpeg) center center no-repeat;
+    background-size: cover;
+}
+.display-4{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+/* for search box */
+.rounded-c {
+    border-radius: 100px;
+  }
+  
+  /* for nav items hover */
+  
+  .hover-nav:hover {
+    border-bottom: black solid 1px;
+  }
+  /* for footer */
+  .link-c {
+    text-decoration: none;
+  }
+ 
